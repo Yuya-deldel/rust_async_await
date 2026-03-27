@@ -7,3 +7,6 @@ edition = "2021"
 reqwest = "0.13.2"
 tokio = { version = "1.50.0", features = ["full"]}
 futures-util = "0.3"
+async-task = "4.7.0"
+futures-lite = "2.6.1"
+flume = "0.12"
