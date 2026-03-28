@@ -4,9 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-reqwest = "0.13.2"
-tokio = { version = "1.50.0", features = ["full"]}
-futures-util = "0.3"
-async-task = "4.7.0"
-futures-lite = "2.6.1"
-flume = "0.12"
+reqwest = "*"
+tokio = { version = "*", features = ["full"]}
+futures-util = "*"
+async-task = "*"
+futures-lite = "*"
+flume = "*"
+hyper = {version = "*", features = ["http1", "http2", "client", "runtime"]}
+smol = "*"
+anyhow = "*"
+async-native-tls = "*"
+http = "*"
