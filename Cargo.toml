@@ -6,6 +6,7 @@ edition = "2021"
 [dependencies]
 reqwest = "*"
 tokio = { version = "1.52.1", features = ["full"]}
+futures = "*"
 futures-util = "*"
 async-task = "*"
 futures-lite = "*"
@@ -15,3 +16,5 @@ async-native-tls = "*"
 http = "*"
 mio = {version = "1.1.1", features = ["net", "os-poll"]}
 rand = "0.10.1"
+clearscreen = "*"
+device_query = "*"
