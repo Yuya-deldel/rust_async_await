@@ -153,6 +153,7 @@ dependencies = [
  "futures-util",
  "http",
  "mio",
+ "nix",
  "rand 0.10.1",
  "reqwest",
  "smol",
