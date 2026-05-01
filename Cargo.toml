@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-reqwest = "*"
+reqwest = "0.13.2"
 tokio = { version = "1.52.1", features = ["full"]}
+tokio-util = {version = "*", features = ["full"]}
 futures = "*"
 futures-util = "*"
 async-task = "*"

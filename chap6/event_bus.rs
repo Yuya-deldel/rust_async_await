@@ -7,7 +7,7 @@ use tokio::sync::Mutex as AsyncMutex;
 pub struct EventBus<T: Clone + Send> {
     chamber: AsyncMutex<HashMap<u32, VecDeque<T>>>,
     count: AtomicU32,
-    dead_ids: Mutex<Vec<u32>>
+    dead_ids: Mutex<Vec<u32>>   // 非同期ではない
 }
 
 impl<T: Clone + Send> EventBus<T> {
