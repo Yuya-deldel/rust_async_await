@@ -21,3 +21,4 @@ clearscreen = "*"
 device_query = "*"
 nix = "*"
 serde_json = "*"
+uuid = { version = "*", features = ["v4"]}
