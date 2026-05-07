@@ -1,3 +1,5 @@
 /target
+/executor/target
+/chap10/target
 
 *.txt

@@ -1,0 +1,11 @@
+[package]
+name = "async_await_from_scratch"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["client", "server", "data_layer", "async_runtime"]
+
+[[bin]]
+name = "async_await_from_scratch"
+path = "src/main.rs"
