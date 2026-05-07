@@ -1,0 +1,11 @@
+[package]
+name = "executor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures-util = "*"
+futures = "*"
+async-std = {version = "*", features = ["attributes"]}
+waker-fn = "*"
+futures-lite = "*"
